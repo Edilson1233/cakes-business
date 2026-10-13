@@ -2,7 +2,13 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useEffect, useState } from "react";
 import BrandIdentity from "./BrandIdentity.jsx";
 
-const INTRO_STORAGE_KEY = "zulmira-cakes-opening-seen-v3";
+const INTRO_STORAGE_KEY = "zulmira-cakes-opening-seen-v4";
+
+const INTRO_TIMING = {
+  firstDelay: 3000,
+  finishDelay: 7000,
+  progressDuration: 6.8,
+};
 
 function hasSeenIntro() {
   try {
@@ -39,16 +45,16 @@ function OpeningIntro() {
       return undefined;
     }
 
-    const firstDelay = reduceMotion ? 1200 : 2600;
-    const finishDelay = reduceMotion ? 3200 : 5700;
-
-    const phaseTimer = window.setTimeout(() => setPhase(1), firstDelay);
+    const phaseTimer = window.setTimeout(
+      () => setPhase(1),
+      INTRO_TIMING.firstDelay,
+    );
     const finishTimer = window.setTimeout(() => {
       if (!forcedIntro) {
         markIntroAsSeen();
       }
       setVisible(false);
-    }, finishDelay);
+    }, INTRO_TIMING.finishDelay);
 
     return () => {
       window.clearTimeout(phaseTimer);
@@ -70,8 +76,10 @@ function OpeningIntro() {
           <div className="mx-auto flex max-w-3xl flex-col items-center">
             <motion.div
               className="flex min-h-16 items-center justify-center"
-              initial={reduceMotion ? false : { scale: 0.96, opacity: 0 }}
-              animate={reduceMotion ? {} : { scale: 1, opacity: 1 }}
+              initial={
+                reduceMotion ? { opacity: 0 } : { scale: 0.96, opacity: 0 }
+              }
+              animate={reduceMotion ? { opacity: 1 } : { scale: 1, opacity: 1 }}
               transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
             >
               <BrandIdentity
@@ -84,9 +92,9 @@ function OpeningIntro() {
               <motion.p
                 key={phase}
                 className="mt-8 font-display text-4xl font-bold leading-tight sm:text-6xl"
-                initial={reduceMotion ? false : { opacity: 0, y: 18 }}
-                animate={reduceMotion ? {} : { opacity: 1, y: 0 }}
-                exit={reduceMotion ? {} : { opacity: 0, y: -16 }}
+                initial={reduceMotion ? { opacity: 0 } : { opacity: 0, y: 18 }}
+                animate={reduceMotion ? { opacity: 1 } : { opacity: 1, y: 0 }}
+                exit={reduceMotion ? { opacity: 0 } : { opacity: 0, y: -16 }}
                 transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
               >
                 {phase === 0
@@ -97,15 +105,15 @@ function OpeningIntro() {
 
             <motion.div
               className="mt-8 h-1.5 w-44 overflow-hidden rounded-full bg-cocoa/10"
-              initial={reduceMotion ? false : { opacity: 0 }}
-              animate={reduceMotion ? {} : { opacity: 1 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
             >
               <motion.div
                 className="h-full rounded-full bg-rose"
-                initial={reduceMotion ? false : { width: "0%" }}
+                initial={{ width: "0%" }}
                 animate={{ width: "100%" }}
                 transition={{
-                  duration: reduceMotion ? 0.01 : 5.5,
+                  duration: INTRO_TIMING.progressDuration,
                   ease: "easeInOut",
                 }}
               />
