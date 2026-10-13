@@ -2,7 +2,7 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useEffect, useState } from "react";
 import BrandIdentity from "./BrandIdentity.jsx";
 
-const INTRO_STORAGE_KEY = "zulmira-cakes-opening-seen-v2";
+const INTRO_STORAGE_KEY = "zulmira-cakes-opening-seen-v3";
 
 function hasSeenIntro() {
   try {
@@ -39,8 +39,8 @@ function OpeningIntro() {
       return undefined;
     }
 
-    const firstDelay = reduceMotion ? 700 : 2000;
-    const finishDelay = reduceMotion ? 1700 : 3600;
+    const firstDelay = reduceMotion ? 1200 : 2600;
+    const finishDelay = reduceMotion ? 3200 : 5700;
 
     const phaseTimer = window.setTimeout(() => setPhase(1), firstDelay);
     const finishTimer = window.setTimeout(() => {
@@ -91,7 +91,7 @@ function OpeningIntro() {
               >
                 {phase === 0
                   ? "Toda grande marca começa com um pequeno sonho..."
-                  : "Bem-vinda à Zulmira Cakes. ❤️"}
+                  : "Bem-vindo/a à Zulmira Cakes. ❤️"}
               </motion.p>
             </AnimatePresence>
 
@@ -105,7 +105,7 @@ function OpeningIntro() {
                 initial={reduceMotion ? false : { width: "0%" }}
                 animate={{ width: "100%" }}
                 transition={{
-                  duration: reduceMotion ? 0.01 : 3.4,
+                  duration: reduceMotion ? 0.01 : 5.5,
                   ease: "easeInOut",
                 }}
               />
