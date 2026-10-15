@@ -56,6 +56,28 @@ public/images/cakes/
 
 Ao adicionares novas fotografias, usa nomes simples e actualiza `src/data/products.js`.
 
+### Categorias e sequência da galeria
+
+As cinco categorias estão definidas em `src/data/gallery.js` e são partilhadas
+pelo catálogo, pelos filtros da galeria e pelo formulário de encomenda:
+
+- Bolos de aniversário: 15 fotografias.
+- Temas infantis: 6 fotografias.
+- Bolos caseiros: 8 fotografias.
+- Mini bolos: 2 fotografias.
+- Noivado: 1 fotografia avulsa.
+
+Dentro de cada categoria, as fotografias seguem a ordem das entradas do ZIP
+enviado. O ZIP de aniversário incluído dentro do ZIP de bolos caseiros foi
+ignorado, pois a categoria já tem o seu próprio arquivo. As 15 fotografias
+reenviadas que já existiam no projecto reutilizam os ficheiros anteriores;
+as 17 novas estão em `public/images/cakes/categories/`. Fotografias distintas
+do mesmo bolo foram preservadas. A galeria apresenta cada entrada uma única vez.
+
+O registo da importação está em `docs/gallery-import.json`. Para alterar a
+sequência ou acrescentar trabalhos, actualiza `src/data/gallery.js`; o catálogo
+e os tipos de bolo acompanham automaticamente as categorias.
+
 Logotipo e marca:
 
 ```text

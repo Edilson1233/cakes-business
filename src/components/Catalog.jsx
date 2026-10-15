@@ -14,12 +14,12 @@ function Catalog() {
         <Reveal>
           <SectionTitle
             eyebrow="As nossas delícias"
-            title="Um catálogo simples, bonito e pronto para crescer."
-            text="Os preços ficam sob consulta até que a Zulmira confirme valores, tamanhos e sabores disponíveis."
+            title="Um bolo para cada ocasião."
+            text="Descobre as nossas categorias e fala connosco para combinar o sabor, o tamanho e a decoração."
           />
         </Reveal>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product, index) => (
             <Reveal key={product.id} delay={index * 0.05} className="h-full">
               <ProductCard product={product} />

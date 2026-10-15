@@ -12,7 +12,7 @@ import SectionTitle from "./SectionTitle.jsx";
 
 const initialForm = {
   name: "",
-  cakeType: "Aniversário",
+  cakeType: cakeTypes[0],
   flavour: "",
   size: "",
   date: "",

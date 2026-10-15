@@ -1,0 +1,244 @@
+{
+  "images": [
+    {
+      "category": "bolos-caseiros",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.18 AM.jpeg",
+      "src": "/images/cakes/categories/bolos-caseiros/01.jpeg",
+      "sha256": "3af7a84f7882d133313acf9a24c9236b97bdeaed7f4f405d289311205f5d48ea",
+      "sequence": 1,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-06.jpeg"
+    },
+    {
+      "category": "bolos-caseiros",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.18 AM (1).jpeg",
+      "src": "/images/cakes/categories/bolos-caseiros/02.jpeg",
+      "sha256": "5c678e429be3ff8990eb9c6b8319e9a972ee94fbc9ec69ed9a3921d5e720f92e",
+      "sequence": 2,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-14.jpeg"
+    },
+    {
+      "category": "bolos-caseiros",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.18 AM (2).jpeg",
+      "src": "/images/cakes/categories/bolos-caseiros/03.jpeg",
+      "sha256": "6e55e3f028b6de874674e8183751de432b2e1d73b4680dcd842b2b83fe3b7a2a",
+      "sequence": 3,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-08.jpeg"
+    },
+    {
+      "category": "bolos-caseiros",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.19 AM.jpeg",
+      "src": "/images/cakes/categories/bolos-caseiros/04.jpeg",
+      "sha256": "09b6065eff8fe32929985dbbec2f8f2c7fe4a714214d7b908184acff46b2e612",
+      "sequence": 4,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-05.jpeg"
+    },
+    {
+      "category": "bolos-caseiros",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.19 AM (1).jpeg",
+      "src": "/images/cakes/categories/bolos-caseiros/05.jpeg",
+      "sha256": "a8cfa346daeab3d304171fb94a4401cf88724071fa3190abbefe7d3bc3a7c9a4",
+      "sequence": 5
+    },
+    {
+      "category": "bolos-caseiros",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.19 AM (2).jpeg",
+      "src": "/images/cakes/categories/bolos-caseiros/06.jpeg",
+      "sha256": "17b452760cd539e3fab7b3d6a430e6331427cb5ed7396550f758db5df0607931",
+      "sequence": 6,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-16.jpeg"
+    },
+    {
+      "category": "bolos-caseiros",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.20 AM.jpeg",
+      "src": "/images/cakes/categories/bolos-caseiros/07.jpeg",
+      "sha256": "902aabb5136af6cdf3308ea6dd841fd45c61359f3361cda65955fcce542613fd",
+      "sequence": 7,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-03.jpeg"
+    },
+    {
+      "category": "bolos-caseiros",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.20 AM (1).jpeg",
+      "src": "/images/cakes/categories/bolos-caseiros/08.jpeg",
+      "sha256": "d51cc0a877bf8642c7f5c2fbb577656e9e79ae7c4db498f28c2179fb18bd8015",
+      "sequence": 8
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.02 AM.jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/01.jpeg",
+      "sha256": "57e1ca860db1cee0e9ab3a98382dce67deb47f6d63893c53e2e17cf7356fb4dd",
+      "sequence": 1
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.02 AM (1).jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/02.jpeg",
+      "sha256": "774024098960cfe1afcc59955d502e71c090198ae59789faeb5b9224e5f1cbf6",
+      "sequence": 2
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.02 AM (2).jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/03.jpeg",
+      "sha256": "5916402e3d44e50c9150f74c81143e5f91f00ad23228795385508371ff2b4a55",
+      "sequence": 3
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.02 AM (3).jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/04.jpeg",
+      "sha256": "1f65aa6e7cbb5a1326153694e20cfc1c46e2798fed4c5af4b34e028eacf0bac3",
+      "sequence": 4
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.03 AM.jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/05.jpeg",
+      "sha256": "e76b23879d63626b2dcc3e4d2541e601bff18fcf02b3c30f9e665792f1030b2e",
+      "sequence": 5
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.03 AM (1).jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/06.jpeg",
+      "sha256": "04f960fb438fbfe4c5932da214adb4823a74ebaf3b1f8258aedec266619d6a1b",
+      "sequence": 6
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.03 AM (2).jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/07.jpeg",
+      "sha256": "f1b644989a8c4c99db3c35bcc19cdb1e0b20dde1565f751e79cb89fb7be651ab",
+      "sequence": 7
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.04 AM.jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/08.jpeg",
+      "sha256": "6729f36accf65a58c86b29f362fef777048b1a49a0580cd90d59e194d7af3bec",
+      "sequence": 8
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.04 AM (1).jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/09.jpeg",
+      "sha256": "359bbd83f4f60274199d08e4257694aa80fe3141182f5fe6fd1c529131f10b44",
+      "sequence": 9
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.04 AM (2).jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/10.jpeg",
+      "sha256": "edcf150600e8f7005fed931dd816f19fa8f77d8c215ec48fe32ccfef7a2383c2",
+      "sequence": 10
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.04 AM (3).jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/11.jpeg",
+      "sha256": "089e494356d5f328ff48c6ef63960a494a68b0d5651ad72cb683b3f338200be5",
+      "sequence": 11,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-10.jpeg"
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.05 AM.jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/12.jpeg",
+      "sha256": "aa6e44c01995d58a4175beff921c778971ca0a84a57997e531389e062cda7329",
+      "sequence": 12,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-12.jpeg"
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.05 AM (1).jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/13.jpeg",
+      "sha256": "684cb3af55eea5b145229e88f353a77929aa5ca95e4e428d544b42a7010e05b1",
+      "sequence": 13,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-11.jpeg"
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.05 AM (2).jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/14.jpeg",
+      "sha256": "a69943c3c6c62195df6d2e46adb96eee5c2ca9c0195acff5f5f5cd1ad343429a",
+      "sequence": 14
+    },
+    {
+      "category": "bolos-de-aniversario",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.06 AM.jpeg",
+      "src": "/images/cakes/categories/bolos-de-aniversario/15.jpeg",
+      "sha256": "d145ae5bde691ecfa6cd8dad8bf67f52a06acca84c663efb2704c5be8c74d502",
+      "sequence": 15,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-17.jpeg"
+    },
+    {
+      "category": "mini-bolos",
+      "source": "WhatsApp Image 2026-10-15 at 12.59.48 AM.jpeg",
+      "src": "/images/cakes/categories/mini-bolos/01.jpeg",
+      "sha256": "3b104b7fbea36a616f74f9909d9e24b2512994fc5b2c7eb3ca1216b864724b88",
+      "sequence": 1,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-15.jpeg"
+    },
+    {
+      "category": "mini-bolos",
+      "source": "WhatsApp Image 2026-10-15 at 12.59.49 AM.jpeg",
+      "src": "/images/cakes/categories/mini-bolos/02.jpeg",
+      "sha256": "c0938ef2795060263f6711c081499c79f99635c0cc3599301359e4bd4a9a8bda",
+      "sequence": 2,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-04.jpeg"
+    },
+    {
+      "category": "temas-infantis",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.34 AM.jpeg",
+      "src": "/images/cakes/categories/temas-infantis/01.jpeg",
+      "sha256": "ce97836d96251a26ce5462c1a92f48b105a6e6c0987f9f69e27d54df3b1d8ac8",
+      "sequence": 1
+    },
+    {
+      "category": "temas-infantis",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.34 AM (1).jpeg",
+      "src": "/images/cakes/categories/temas-infantis/02.jpeg",
+      "sha256": "08027bc09d154636046da17db799765cf53a8f028c748554054661d6b0cd0793",
+      "sequence": 2
+    },
+    {
+      "category": "temas-infantis",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.34 AM (2).jpeg",
+      "src": "/images/cakes/categories/temas-infantis/03.jpeg",
+      "sha256": "dc627bf09328321965039d5e4904149b46ec360679d412cc3556d3c9c4f7db31",
+      "sequence": 3
+    },
+    {
+      "category": "temas-infantis",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.35 AM.jpeg",
+      "src": "/images/cakes/categories/temas-infantis/04.jpeg",
+      "sha256": "2dd09d8fc1e1a9823ab035dd1a101e283348a6856b7a1497ec05f2c72ea12c6a",
+      "sequence": 4,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-09.jpeg"
+    },
+    {
+      "category": "temas-infantis",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.35 AM (1).jpeg",
+      "src": "/images/cakes/categories/temas-infantis/05.jpeg",
+      "sha256": "60e16d917d0bd855595260d21ebbc507dc58cf9a30d0ad9d748ded84927f1e6e",
+      "sequence": 5,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-13.jpeg"
+    },
+    {
+      "category": "temas-infantis",
+      "source": "WhatsApp Image 2026-10-15 at 12.58.35 AM (2).jpeg",
+      "src": "/images/cakes/categories/temas-infantis/06.jpeg",
+      "sha256": "4b1ab5ff6c475a70598f8e46e9772f90c4ce581e22ed395c7a667dc1ee3cf4ea",
+      "sequence": 6,
+      "reusedImage": "/images/cakes/zulmira/zulmira-cake-07.jpeg"
+    },
+    {
+      "category": "noivado",
+      "source": "bolo para noivado.jpeg",
+      "src": "/images/cakes/categories/noivado/01.jpeg",
+      "sha256": "287e3e766df8743a3cf1c4594c0fcb7fa11b191ab5dd676a0cc16f0290ee5a77",
+      "sequence": 1
+    }
+  ],
+  "exactDuplicates": []
+}
